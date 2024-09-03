@@ -1,7 +1,7 @@
 // app.js
 import express from "express";
 import connect from "./schemas/index.js";
-import todosRouter from "./routes/todos.router.js";
+import todosRouter from  './routes/todos.router.js';
 import errorHandlerMiddleware from "./middlewares/error-handler.middleware.js";
 
 const app = express();
